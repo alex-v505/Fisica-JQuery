@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    </style>
+    <title>MRU</title>
+</head>
+<body>
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <div class="relative flex items-center justify-between h-20">
+                <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img class="block lg:hidden h-8 w-auto"
+                            src="img/icono1.jpg" alt="fisicLab">
+                        <img class="hidden lg:block h-12 w-10 w-auto"
+                            src="img/icono1.jpg"
+                            alt="fisicLab">
+                        
+                        <p class="hover:font-serif text-4xl font-extrabold text-neutral-100">FisicLab</p>
+                    </div>
+                </div>
+                <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                    <!-- Profile dropdown -->
+                    <div class="ml-3 relative">
+                        <div>
+                            <div class="flex flex-col items-center justify-center ">
+                                <img class="w-10 h-12 rounded-full" src="img/alexVilcacundo.jpg">
+                                <strong class="text-slate-900 text-xs font-medium dark:text-slate-200">Alex</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-gradient-to-r from-blue-200 via-neutral-200 to-purple-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-5xl font-extrabold text-gray-900 text-center lg:py-5">MOVIMIENTO RECTILÍNEO UNIFORME</p>
+            <p class="text-lg font-extrabold text-gray-800 lg:py-5">El movimiento rectilíneo uniforme (MRU) es el movimiento que describe un cuerpo o partícula a través de una
+                línea recta a velocidad constante.</p>
+            <img src="img/mru.jpg" class="drop-shadow-2xl mx-auto lg:py-5 object-right ">
+
+            <div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-5 lg:max-w-none">
+                <h2 class="text-2xl font-extrabold text-gray-900">Componentes</h2>
+                
+                            
+                
+                <div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+                    <div class="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                    <div class="group relative">
+                        <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-50 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                            <img src="img/posicion.png"
+                                alt="Graficas de posicion MRU"
+                                class="w-full h-full object-center object-cover">
+                        </div>
+
+                        <p class="mt-3 tracking-widest text-2xl title-font font-bold  text-center text-red-700 mb-1 uppercase ">Posición</p>
+                        <p class="mt-2 text-lg font-semibold text-justify text-gray-900 px-4">La posición del cuerpo después de
+                            un tiempo se calcula a partir de la posición inicial y de la velocidad del cuerpo.</p><br>
+                        <img class="lg:h-20 md:h-9 w-full object-cover object-center"
+                            src="img/ecuacion_posicion.JPG" alt="ecuacionAceleracionMRU" />
+                    </div>
+                </div>
+                <div class="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                    <div class="group relative">
+                        <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-50 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                            <img src="img/velocidad.png"
+                                alt="Gráficas de velocidad"
+                                class="w-full h-full object-center object-cover">
+                        </div>
+                        <p class=" mt-3 tracking-widest text-2xl title-font font-bold  text-center text-blue-700 mb-1 uppercase ">Velocidad</p>
+                        <p class="mt-2 text-lg font-semibold text-justify text-gray-900 px-4">La velocidad de un cuerpo en un
+                            MRU es constante y viene definida como el cociente entre el incremento de espacio y el
+                            incremento de tiempo.</p>
+                        <img class="lg:h-20 md:h-9 w-full object-cover object-center"
+                            src="img/ecuacion_velocidad.JPG" alt="ecuacionVelocidadMRU" />
+                    </div>
+                </div>
+                <div class="h-full border-2 border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                    <div class="group relative">
+                        <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-50 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                            <img src="img/aceleracion.png"
+                                alt="Gráficas de aceleración"
+                                class="w-full h-full object-center object-cover">
+                        </div>
+                        <p class=" mt-3 tracking-widest text-2xl title-font font-bold  text-center text-green-400 mb-1 uppercase ">Aceleración</p>
+                        <p class="mt-2 text-lg font-semibold text-justify text-gray-900 px-4">En el movimiento rectilíneo
+                            uniforme (MRU) la velocidad es constante, por lo que la aceleración es cero.</p><br>
+                        <img class="lg:h-20 md:h-9 w-full object-cover object-center"
+                            src="img/ecuacion_aceleracion.JPG" alt="ecuacionAceleracionMRU" />
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="text-center text-white bg-gray-800 py-4 ">
+            <ul class="list-disc text-lg font-semibold">
+                <li>FisicLab © 2022</li>
+                <li>Privacidad-Términos y condiciones</li>
+                <li>Creado por: Alex Vilcacundo</li>
+            </ul>
+        </footer>    
+</body>
+</html>
